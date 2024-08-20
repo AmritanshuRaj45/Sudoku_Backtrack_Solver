@@ -67,4 +67,4 @@ The server will be available at http://localhost:3000.
 Feel free to open issues or submit pull requests if you find any bugs or have improvements in mind!
 
 ## License
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/AmritanshuRaj45/sudoku_backtrack_solver/blob/main/LICENSE) file for details.
