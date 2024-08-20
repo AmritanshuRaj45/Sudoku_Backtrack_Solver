@@ -36,7 +36,7 @@ This command creates an executable file named sudoku_solver (or sudoku_solver.ex
 Navigate to the directory and install dependencies:
 `cd Sudoku_solver`
 
-`npm install`
+`npm install express`
 #### 4. Start the Node.js Server
 Start the server:
 `node server.js`
