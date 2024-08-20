@@ -48,13 +48,17 @@ The server will be available at http://localhost:3000.
   * Solve the Puzzle: Click the Solve button to solve the puzzle. The solution will be displayed in the grid.
   * Reset the Grid: Click the Reset button to clear the grid.
 ## Demo and Screenshots
-First look:-
+### First look:-
+
 ![image](https://github.com/user-attachments/assets/e47f3bf4-77ed-45c9-ba79-0a2bcfeb2db6)
-Aftering entering input:-
+### Aftering entering input:-
+
 ![image](https://github.com/user-attachments/assets/512c5c6a-c57b-4009-8c14-e6711925e49c)
-After clicking Solve:-
+### After clicking Solve:-
+
 ![image](https://github.com/user-attachments/assets/9f3a25aa-83ef-4121-81fb-f78c261f3a59)
-if the input is not valid or break Sudoku rules:-
+### if the input is not valid or break Sudoku rules:-
+
 ![image](https://github.com/user-attachments/assets/9d00b07f-8061-4353-ab7a-25e967e1687d)
 ## Troubleshooting
   *No Solution Exists: Ensure that the input grid is valid and follows Sudoku rules.
