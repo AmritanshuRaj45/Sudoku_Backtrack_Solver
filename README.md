@@ -25,16 +25,29 @@ Welcome to the Sudoku Backtracker Solver project! This project provides a web-ba
 
 #### 1. Clone the Repository
 `git clone https://github.com/AmritanshuRaj45/sudoku_backtrack_solver.git`
-*`cd sudoku-solver`*
+`cd sudoku-solver`
 #### 2. Build the C++ Solver
 Compile the C++ solver:
-g++ -o sudoku_solver sudoku_solver.cpp
+`g++ -o sudoku_solver sudoku_solver.cpp`
 This command creates an executable file named sudoku_solver (or sudoku_solver.exe on Windows) in the project directory.
 #### 3. Install Node.js Dependencies
 Navigate to the directory and install dependencies:
-cd Sudoku_solver
-npm install
+`cd Sudoku_solver`
+`npm install`
 #### 4. Start the Node.js Server
 Start the server:
-node server.js
+`node server.js`
 The server will be available at http://localhost:3000.
+### Usage
+  *Open the Web Interface: Visit http://localhost:3000 in your web browser.
+  *Input a Sudoku Puzzle: Fill in the Sudoku grid. Each cell accepts numbers from 1 to 9.
+  *Solve the Puzzle: Click the Solve button to solve the puzzle. The solution will be displayed in the grid.
+  *Reset the Grid: Click the Reset button to clear the grid.
+## Troubleshooting
+  *No Solution Exists: Ensure that the input grid is valid and follows Sudoku rules.
+  *Errors: Check server logs and make sure the C++ executable is correctly built and in the same directory as server.js.
+## Contributing
+Feel free to open issues or submit pull requests if you find any bugs or have improvements in mind!
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
