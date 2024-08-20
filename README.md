@@ -26,7 +26,7 @@ Welcome to the Sudoku Backtracker Solver project! This project provides a web-ba
 #### 1. Clone the Repository
 `git clone https://github.com/AmritanshuRaj45/sudoku_backtrack_solver.git`
 
-`cd sudoku-solver`
+`cd Sudoku_solver`
 #### 2. Build the C++ Solver
 Compile the C++ solver:
 `g++ -o sudoku_solver sudoku_solver.cpp`
