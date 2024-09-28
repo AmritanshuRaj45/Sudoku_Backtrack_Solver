@@ -19,7 +19,7 @@ app.post('/solve', (req, res) => {
     const input = grid.join(' ') + '\n';
 
     // Path to the compiled C++ executable
-    const executablePath = path.join(__dirname, 'sudoku_solver.exe'); // Use 'sudoku_solver' on Linux/Mac
+    const executablePath = path.join(__dirname, 'sudoku_solver'); // Use 'sudoku_solver' on Linux/Mac
 
     // Execute the C++ program
     const solver = execFile(executablePath, [], (error, stdout, stderr) => {
