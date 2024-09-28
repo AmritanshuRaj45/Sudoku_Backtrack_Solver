@@ -19,7 +19,7 @@ app.post('/solve', (req, res) => {
     const input = grid.join(' ') + '\n';
 
     // Path to the compiled C++ executable
-    const executablePath = path.join(__dirname, 'sudoku_solver'); // Use 'sudoku_solver' on Linux/Mac
+    const executablePath = path.join(__dirname, 'sudoku_solver.exe'); // Use 'sudoku_solver' on Linux/Mac
 
     // Execute the C++ program
     const solver = execFile(executablePath, [], (error, stdout, stderr) => {
@@ -45,7 +45,6 @@ app.post('/solve', (req, res) => {
 });
 
 // Start the server
-const PORT = process.env.PORT || 3000; // Use the PORT from environment variables
-app.listen(PORT, () => {
-    console.log(`Server running on port ${PORT}`);
+app.listen(3000, () => {
+    console.log('Server running on http://localhost:3000');
 });
